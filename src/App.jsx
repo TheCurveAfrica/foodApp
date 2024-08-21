@@ -24,7 +24,7 @@ const routes = createHashRouter([
     element: <Footer/>
   },
     {
-    path:"/side",
+    path:"/sidebar",
     element: <SideBar/>
   },
   {
