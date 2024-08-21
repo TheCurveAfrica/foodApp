@@ -4,6 +4,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import Auth from "./components/Auth/Auth"
 import Home from "./pages/Home/Home"
 import Menu from "./pages/Menu/Menu";
+import SideBar from "./components/SideBar/SideBar"
 import "./App.css"
 import Details from "./pages/details/Details";
 
@@ -16,6 +17,10 @@ const routes = createHashRouter([
   {
     path: "/signup",
     element: <SignUp/>
+  },
+  {
+    path:"/side",
+    element: <SideBar/>
   },
   {
     path: "/app",
