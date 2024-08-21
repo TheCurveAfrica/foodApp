@@ -19,7 +19,7 @@
         backdrop-filter: blur( 9.5px );
         -webkit-backdrop-filter: blur( 9.5px );
         border-radius: 20px;
-        /* color: white; */
+        color: #666;
 
         & input{
             width: 50%;
