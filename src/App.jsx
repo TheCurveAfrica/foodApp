@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home"
 import Menu from "./pages/Menu/Menu";
 import "./App.css"
 import Details from "./pages/details/Details";
+import Footer from "./components/Footer/Footer";
 
 
 const routes = createHashRouter([
@@ -16,6 +17,10 @@ const routes = createHashRouter([
   {
     path: "/signup",
     element: <SignUp/>
+  },
+  {
+    path: "/footer",
+    element: <Footer/>
   },
   {
     path: "/app",
