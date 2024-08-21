@@ -1,0 +1,140 @@
+.Cart{
+    position: absolute;
+    color: white;
+    top: 70px;
+    z-index: 99;
+    right: 50px;
+    width: 30%;
+    min-height: 150px;
+    background: rgba( 255, 255, 255, 0.30 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 350ms;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 600px;
+    height: 580px;
+    /* overflow-y: auto; */
+
+    & header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        & select{
+            border-radius: 5px;
+            background: rgba(80, 98, 20, 0.15);
+            backdrop-filter: blur( 9.5px );
+            -webkit-backdrop-filter: blur( 9.5px );
+            color: white;
+            font-weight: 700;
+
+            & option{
+                color:black;
+            }
+        }
+    }
+
+    & main{
+        width: 100%;
+        height: 490px;
+        min-height: 150px;
+        border-radius: 10px;
+        display: flex;
+        gap: 5px;
+        flex-direction:column;
+        max-height: 600px;
+        overflow-y: auto;
+    }
+    & main::-webkit-scrollbar {
+        display: none;
+    }
+
+    & .main {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    }
+
+    & .CartCheckout{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        & button{
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            background: rgba(61, 247, 37, 0.28);
+            backdrop-filter: blur( 9.5px );
+            -webkit-backdrop-filter: blur( 9.5px );
+            color: white;
+            cursor: pointer;
+            transition: all 150ms;
+            padding-inline: 10px;
+            padding-block: 3px;
+            font-weight: 700;
+        }
+
+        & button:hover{
+            background: rgba(61, 247, 37, 0.55);
+            transition: all 150ms;
+        }
+    }
+}
+
+@media screen and (width <= 1440px) {
+
+    .Cart{
+        width: 40%;
+
+        & p{
+            font-size: 10px;
+        }
+    }
+    
+}
+@media screen and (width <= 1024px) {
+
+    .Cart{
+        width: 40%;
+
+        & p{
+            font-size: 10px;
+        }
+    }
+    
+}
+@media screen and (width <= 860px) {
+
+    .Cart{
+        width: 55%;
+    }
+    
+}
+@media screen and (width <= 625px) {
+
+    .Cart{
+        width: 70%;
+    }
+    
+}
+@media screen and (width <= 495px) {
+
+    .Cart{
+        width: 85%;
+    }
+    
+}
+@media screen and (width <= 410px) {
+
+    .Cart{
+        right: 20px;
+        & p{
+            font-size: 9px;
+        }
+    }
+    
+}

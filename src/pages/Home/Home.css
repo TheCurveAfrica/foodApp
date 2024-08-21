@@ -1,0 +1,70 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+    background: rgb(202,252,32);
+    background: radial-gradient(circle, rgba(202,252,32,1) 0%, rgba(0,0,0,1) 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    gap: 20px;
+    padding: 20px;
+
+    & a:nth-child(odd){
+        transition: all 350ms;
+        background: rgba( 255, 255, 255, 0.15 );
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+    }
+    & a:nth-child(even){
+        transition: all 350ms;
+        background: rgba(209, 255, 58, 0.15);
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+    }
+    & a:nth-child(odd):hover{
+        transition: all 350ms;
+        background: rgba( 255, 255, 255, 0.30 );
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+    }
+    & a:nth-child(even):hover{
+        transition: all 350ms;
+        background: rgba(209, 255, 58, 0.30);
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+    }
+
+    & .HomeMain{
+        width: 80%;
+        height: 90vh;
+        max-height: 90vh;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        overflow-y: auto;
+    }
+    & .HomeMain::-webkit-scrollbar {
+        display: none;
+    }
+
+    & .HomeMain {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    }
+}
+
+@media screen and (width <= 400px) {
+    .Home{
+        padding: 0px;
+
+        & .HomeMain{
+            width: 100%;
+            padding: 0px;
+        }
+    }
+
+}

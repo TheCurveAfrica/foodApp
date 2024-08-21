@@ -1,0 +1,87 @@
+.SignUp{
+    width: 100%;
+    height: 100vh;
+    background: rgb(202,252,32);
+    background: radial-gradient(circle, rgba(202,252,32,1) 0%, rgba(0,0,0,1) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & form{
+        width: 97%;
+        height: 95%;
+        background: rgba( 255, 255, 255, 0.15 );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+        border-radius: 20px;
+        /* color: white; */
+
+        & input{
+            width: 50%;
+            height: 50px;
+            background-color: aliceblue;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        & select{
+            width: 50%;
+            height: 50px;
+            background-color: aliceblue;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        & button{
+            width: 50%;
+            height: 50px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            transition: all 350ms;
+        }
+        & button:hover{
+            background-color: rgb(202,252,32);
+            transition:all 350ms;
+            font-size: 25px;
+        }
+
+        & p{
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            & a{
+                color: rgb(202,252,32);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (width < 400px) {
+    .Login{
+        & form{
+            & input{
+                width: 80%;
+            }
+
+            & p{
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
