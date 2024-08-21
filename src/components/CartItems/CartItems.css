@@ -1,0 +1,125 @@
+.CartItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    transition: all 350ms;
+    gap: 25px;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 100px;
+    gap: 20px;
+    background: rgba(209, 255, 58, 0.15);
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    padding: 10px;
+
+    & .CartItemsImageHolder{
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 15%;
+        justify-content: center;
+        & img{
+            width: 70px;
+            height: 70px;
+            border-radius: 70px;
+            background-color: black;
+        }
+    }
+
+    & .CartItemDetails{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        font-size: 12px;
+        gap: 5px;
+        color: rgb(225, 225, 225);
+        text-shadow: 1px 4px 5px rgba(0,0,0,0.8);
+        background: rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+    }
+
+    & .CartItemsControls{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        & button{
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            background: rgba(255, 64, 58, 0.55);
+            backdrop-filter: blur( 9.5px );
+            -webkit-backdrop-filter: blur( 9.5px );
+            color: white;
+            cursor: pointer;
+            transition: all 150ms;
+        }
+
+        & button:hover{
+            background: rgba(255, 64, 58, 0.9);
+            transition: all 150ms;
+        }
+
+        & .CartItemsButtons{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+
+            & button{
+                width: 22px;
+                height: 22px;
+                border-radius: 22px;
+                border: 1px solid rgba(255, 255, 255, 0.8);
+                background: rgba(40, 49, 11, 0.15);
+                backdrop-filter: blur( 9.5px );
+                -webkit-backdrop-filter: blur( 9.5px );
+                color: white;
+                transition: all 450ms;
+            }
+            & button:hover{
+                background: rgba(40, 49, 11, 0.7);
+                cursor: pointer;
+                transition: all 150ms;
+            }
+        }
+    }
+}
+
+@media screen and (width <= 410px) {
+
+    .CartItems{
+        & .CartItemsImageHolder{
+            
+            & img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                /* background-color: black; */
+            }
+        }
+
+        & .CartItemDetails{
+            width: 43%;
+
+            & p{
+                text-overflow: ellipsis;
+
+                /* Required for text-overflow to do anything */
+                white-space: nowrap;
+                overflow-y: hidden;
+            }
+        }
+
+        & button{
+            border-radius: 10px;
+            font-size: 9px;
+        }
+    }
+    
+}

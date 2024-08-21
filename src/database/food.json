@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "name": "Jollof Rice",
+      "description": "A popular West African dish made with rice, tomatoes, onions, and spices. Often served with chicken, beef, or fish.",
+      "image": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2021/02/E10DB4E6-4731-4829-A5F1-B36B0AC88C98.jpeg?resize=750%2C586&ssl=1",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "name": "Pounded Yam & Egusi Soup",
+      "description": "A classic Nigerian dish with smooth pounded yam served with a thick, savory soup made from ground melon seeds and leafy vegetables.",
+      "image": "https://img-global.cpcdn.com/recipes/87d2dcc7d532825e/1200x630cq70/photo.jpg",
+      "price": 1800
+    },
+    {
+      "id": 3,
+      "name": "Suya",
+      "description": "A spicy meat skewer which is a popular street food in Nigeria. Typically made from beef or chicken.",
+      "image": "https://cheflolaskitchen.com/wp-content/uploads/2023/01/nigerian-suya-32.jpg",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "name": "Fried Rice",
+      "description": "A staple Nigerian dish similar to Jollof rice, but cooked with mixed vegetables, liver, and shrimp.",
+      "image": "https://images.food52.com/_zp-tgQxzFnIsqY_zlbxnfJYEcU=/1200x900/b48bad5c-42d6-4f97-99fa-e88e942952e6--2020-0708_my-family-recipe-nigerian-fried-rice_3x2_ty-mecham.jpg",
+      "price": 1300
+    },
+    {
+      "id": 5,
+      "name": "Moi Moi",
+      "description": "A Nigerian steamed bean pudding made from peeled beans, onions, and a blend of spices.",
+      "image": "https://shop.africanfoodsupermarket.com/cdn/shop/articles/moi_moi_1024x.jpg?v=1611605450",
+      "price": 400
+    },
+    {
+      "id": 6,
+      "name": "Akara",
+      "description": "Deep-fried bean cakes made from a mixture of peeled beans, onions, and spices. Often served with pap.",
+      "image": "https://www.myactivekitchen.com/wp-content/uploads/2015/04/akara-image-6-500x500.jpg",
+      "price": 300
+    },
+    {
+      "id": 7,
+      "name": "Efo Riro",
+      "description": "A rich and hearty vegetable soup made with spinach and assorted meats, often eaten with fufu or pounded yam.",
+      "image": "https://freshtodommot.com/cdn/shop/products/efo_riro_1080x.jpg?v=1653014332",
+      "price": 1500
+    },
+    {
+      "id": 8,
+      "name": "Ogbono Soup",
+      "description": "A popular Nigerian soup made with ground ogbono seeds, which give the soup its thick, stretchy texture.",
+      "image": "https://bigmamaspices.ng/wp-content/uploads/2023/02/Ogbono-Soup-recipe.jpeg",
+      "price": 1700
+    },
+    {
+      "id": 9,
+      "name": "Boli (Roasted Plantain)",
+      "description": "A delicious street food of roasted plantains often served with groundnut or pepper sauce.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix3HNSAXOiLOdkjj5qDSN5o4E1LJBYsvGeJ7iWef4kAcZCNeA7MdpGqSScZML5SvozjUxlXvCTOaIKM5sGTQlZJX_FaJi9ZBsf8XCAlhpAb-uXJcsOviugFFofW8vfgj3-E93Ro1pZjMX6/s788/b9e3dcc7ba34809b.jpg",
+      "price": 300
+    },
+    {
+      "id": 10,
+      "name": "Pepper Soup",
+      "description": "A spicy broth-based dish made with assorted meat or fish and a blend of hot spices.",
+      "image": "https://africanplate.co.uk/wp-content/uploads/2020/11/DSC_5435.jpg",
+      "price": 1200
+    },
+    {
+      "id": 11,
+      "name": "Ofada Rice & Ayamase Sauce",
+      "description": "A local variety of brown rice served with a spicy green pepper sauce made with assorted meats.",
+      "image": "https://foodiesbymina.com/wp-content/uploads/2018/03/ayamase-3-foodiesbymina.png",
+      "price": 1600
+    },
+    {
+      "id": 12,
+      "name": "Beans & Plantain",
+      "description": "A hearty meal of stewed beans served with fried ripe plantains. It's a popular comfort food in Nigeria.",
+      "image": "https://ocdn.eu/images/pulscms/NjM7MDA_/db8a59c30cb8816770ef4bc9e45cfdc9.jpg",
+      "price": 1000
+    },
+    {
+      "id": 13,
+      "name": "Afang Soup",
+      "description": "A nutritious soup made with Afang leaves, waterleaf, and a variety of meats and fish. Usually served with fufu.",
+      "image": "https://africanarenamarket.com/wp-content/uploads/2021/01/WhatsApp-Image-2020-12-10-at-11.32.51-1.jpeg",
+      "price": 1500
+    },
+    {
+      "id": 14,
+      "name": "Tuwo Shinkafa & Miyan Kuka",
+      "description": "A Northern Nigerian dish made from soft rice balls served with a thick, greenish soup made from baobab leaves.",
+      "image": "https://coscharisgroup.net/wp-content/uploads/2022/05/tuwo-blog.jpg",
+      "price": 1400
+    },
+    {
+      "id": 15,
+      "name": "Nkwobi",
+      "description": "A Nigerian delicacy made from cow foot mixed in spicy palm oil paste. Often served with cold drinks.",
+      "image": "https://1.bp.blogspot.com/-SmzQGckBPRk/VvRplV-765I/AAAAAAAATC0/zi7DPbvA72MghVNn-bcO1MRY3EZabpw9A/s1600/nkwobi%2Brecipe%2Bby%2Bsisiyemmie%2Bblog%2B.JPG",
+      "price": 1800
+    }
+  ]
+  
